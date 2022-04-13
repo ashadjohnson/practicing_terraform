@@ -1,4 +1,4 @@
-#I'm using a single configuration file for this simple demonstration of my profiency with creating a multiple aws instances with Terraform. 
+#I'm using a single configuration file to demonstrate my proficiency with creating a multiple aws instances with Terraform. 
 
 
 provider "aws" {
