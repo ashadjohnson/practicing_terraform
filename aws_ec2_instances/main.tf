@@ -26,8 +26,10 @@ variable "ec2_ami" {
     us-west-1 = "ami-321" 
   }
 }
-variable "resource_prefix"
+
+variable "resource_prefix" {
     default = "terraform-created"
+}
 
 variable "region" {
   default = us-east-2
