@@ -1,0 +1,21 @@
+This is an overview of all the basic Terraform commands. 
+
+terraform init - initializes directory
+terraform plan - plans the changes to be applied 
+terraform apply - applies changes in configuration files
+terraform destroy - destorys resources
+
+terraform validate - validates errors 
+terraform format - fixes readablity of code 
+terraform show - prints current state of infrastucture 
+terraform providers - prints all providers used in configuration 
+terraform output - prints all output variables 
+terraform refresh - syncs terraform with real-world infrastucture and updates state file. Will not modify infrastucture resources but may update state file if needed. 
+terraform graph - visual representation of dependancies in configuration plan 
+
+
+terraform state list - lists all resources in the terraform state file 
+terraform state show - shows attributes of single attributes in state file of given address 
+terraform state mv - move items from one state file to another state file in a different config directory. Note: You must manually rename the resource name in the config file. 
+terraform state rm - delete items from state file. You should remove associated resource blocks from config file. Note: resource is not destroyed but is removed from the terraform management.
+terraform state push - override remote state with local state file. Beware: this can break configuration if not used correctly. 
