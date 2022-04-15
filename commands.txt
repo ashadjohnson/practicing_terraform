@@ -6,7 +6,7 @@ terraform apply - applies changes in configuration files
 terraform destroy - destorys resources
 
 terraform validate - validates errors 
-terraform format - fixes readablity of code 
+terraform fmt - fixes readablity of code 
 terraform show - prints current state of infrastucture 
 terraform providers - prints all providers used in configuration 
 terraform output - prints all output variables 
